@@ -74,7 +74,7 @@ resources:
           existing_destinations_policy: update
       version: 1.0.0
     service: destination
-    service-name: nsproddtls-destination-service
+    service-name: FIORIAPPS
     service-plan: lite
 - name: nsproddtls-uaa
   type: org.cloudfoundry.managed-service
