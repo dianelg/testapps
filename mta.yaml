@@ -66,11 +66,11 @@ resources:
       init_data:
         instance:
           destinations:
-          - Authentication: NoAuthentication
-            Name: ui5
+          - Authentication: BasicAuthentication
+            Name: FIORIAPPS
             ProxyType: Internet
             Type: HTTP
-            URL: https://ui5.sap.com
+            URL: https://api.cf.us10-001.hana.ondemand.com/
           existing_destinations_policy: update
       version: 1.0.0
     service: destination
